@@ -1,2 +1,2 @@
-# ak2631.schmitzlab.github.io
+# ak2631.github.io
 Schmitz Lab Website
