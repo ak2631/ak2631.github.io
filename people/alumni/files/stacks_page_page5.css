@@ -73,6 +73,77 @@
 	font-size: 150%;
 	font-weight: bold;
 }
+#stacks_in_584>.s3_row {
+	margin: 0 -10px;
+}
+
+#stacks_in_584>.s3_row>.s3_column {
+	padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+  
+
+
+@media only screen and (max-width: 770px) {
+
+
+
+
+	#stacks_in_584>.s3_row  {
+		margin: -10px -10px;
+	}
+	#stacks_in_584>.s3_row>.s3_column {
+		padding: 10px 10px;
+		width:50%;
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+	#stacks_in_584>.s3_row  {
+		margin: -10px 0;
+	}
+	#stacks_in_584>.s3_row>.s3_column {
+		padding: 10px 0;
+		width:100%;
+	}
+
+
+
+
+
+}
+
+
+
+
+  
+
+#stacks_in_584 {
+	margin:  20px;
+}
+
+#stacks_in_621 {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#stacks_in_63 {
+	font-size: 150%;
+}
 #stacks_in_9>.s3_row {
 	margin: 0 -10px;
 }
@@ -136,13 +207,13 @@
 	margin:  20px;
 }
 
-#stacks_in_63 {
-	font-size: 150%;
-}
-
 #stacks_in_55 {
 	font-size: 150%;
 	font-weight: bold;
+}
+
+#stacks_in_79 {
+	font-size: 150%;
 }
 #stacks_in_10>.s3_row {
 	margin: 0 -10px;
@@ -203,11 +274,11 @@
 
   
 
-#stacks_in_79 {
+#stacks_in_71 {
 	font-size: 150%;
 }
 
-#stacks_in_71 {
+#stacks_in_95 {
 	font-size: 150%;
 }
 #stacks_in_11>.s3_row {
@@ -273,11 +344,11 @@
 	margin:  20px;
 }
 
-#stacks_in_95 {
+#stacks_in_87 {
 	font-size: 150%;
 }
 
-#stacks_in_87 {
+#stacks_in_111 {
 	font-size: 150%;
 }
 #stacks_in_12>.s3_row {
@@ -343,11 +414,11 @@
 	margin:  20px;
 }
 
-#stacks_in_111 {
+#stacks_in_103 {
 	font-size: 150%;
 }
 
-#stacks_in_103 {
+#stacks_in_127 {
 	font-size: 150%;
 }
 #stacks_in_13>.s3_row {
@@ -413,8 +484,9 @@
 	margin:  20px;
 }
 
-#stacks_in_127 {
+#stacks_in_627 {
 	font-size: 150%;
+	font-weight: bold;
 }
 
 #stacks_in_119 {
@@ -699,12 +771,84 @@
 	margin:  20px;
 }
 
-#stacks_in_192 {
+#stacks_in_650 {
 	font-size: 150%;
 	font-weight: bold;
 }
 
-#stacks_in_183 {
+#stacks_in_192 {
+	font-size: 150%;
+	font-weight: bold;
+}
+#stacks_in_630>.s3_row {
+	margin: 0 -10px;
+}
+
+#stacks_in_630>.s3_row>.s3_column {
+	padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+  
+
+
+@media only screen and (max-width: 770px) {
+
+
+
+
+	#stacks_in_630>.s3_row  {
+		margin: -10px -10px;
+	}
+	#stacks_in_630>.s3_row>.s3_column {
+		padding: 10px 10px;
+		width:50%;
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+	#stacks_in_630>.s3_row  {
+		margin: -10px 0;
+	}
+	#stacks_in_630>.s3_row>.s3_column {
+		padding: 10px 0;
+		width:100%;
+	}
+
+
+
+
+
+}
+
+
+
+
+  
+
+#stacks_in_630 {
+	margin:  20px;
+}
+
+#stacks_in_633 {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#stacks_in_208 {
 	font-size: 150%;
 	font-weight: bold;
 }
@@ -771,12 +915,11 @@
 	margin:  20px;
 }
 
-#stacks_in_208 {
+#stacks_in_200 {
 	font-size: 150%;
-	font-weight: bold;
 }
 
-#stacks_in_200 {
+#stacks_in_224 {
 	font-size: 150%;
 }
 #stacks_in_19>.s3_row {
@@ -842,12 +985,13 @@
 	margin:  20px;
 }
 
-#stacks_in_224 {
+#stacks_in_216 {
 	font-size: 150%;
 }
 
-#stacks_in_216 {
+#stacks_in_241 {
 	font-size: 150%;
+	font-weight: bold;
 }
 #stacks_in_20>.s3_row {
 	margin: 0 -10px;
@@ -912,12 +1056,12 @@
 	margin:  20px;
 }
 
-#stacks_in_241 {
+#stacks_in_232 {
 	font-size: 150%;
 	font-weight: bold;
 }
 
-#stacks_in_232 {
+#stacks_in_257 {
 	font-size: 150%;
 	font-weight: bold;
 }
@@ -984,12 +1128,12 @@
 	margin:  20px;
 }
 
-#stacks_in_257 {
+#stacks_in_249 {
 	font-size: 150%;
 	font-weight: bold;
 }
 
-#stacks_in_249 {
+#stacks_in_273 {
 	font-size: 150%;
 	font-weight: bold;
 }
@@ -1056,12 +1200,11 @@
 	margin:  20px;
 }
 
-#stacks_in_273 {
+#stacks_in_265 {
 	font-size: 150%;
-	font-weight: bold;
 }
 
-#stacks_in_265 {
+#stacks_in_290 {
 	font-size: 150%;
 }
 #stacks_in_517>.s3_row {
@@ -1127,78 +1270,12 @@
 	margin:  20px;
 }
 
-#stacks_in_290 {
-	font-size: 150%;
-}
-
 #stacks_in_537 {
 	font-size: 150%;
 	font-weight: bold;
 }
-#stacks_in_24>.s3_row {
-	margin: 0 -10px;
-}
 
-#stacks_in_24>.s3_row>.s3_column {
-	padding: 0 10px;
-}
-
-
-
-
-
-
-
-
-  
-
-
-@media only screen and (max-width: 770px) {
-
-
-
-
-	#stacks_in_24>.s3_row  {
-		margin: -10px -10px;
-	}
-	#stacks_in_24>.s3_row>.s3_column {
-		padding: 10px 10px;
-		width:50%;
-	}
-
-
-
-}
-
-
-
-@media only screen and (max-width: 400px) {
-
-
-	#stacks_in_24>.s3_row  {
-		margin: -10px 0;
-	}
-	#stacks_in_24>.s3_row>.s3_column {
-		padding: 10px 0;
-		width:100%;
-	}
-
-
-
-
-
-}
-
-
-
-
-  
-
-#stacks_in_24 {
-	margin:  20px;
-}
-
-#stacks_in_281 {
+#stacks_in_664 {
 	font-size: 150%;
 }
 
