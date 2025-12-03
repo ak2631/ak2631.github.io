@@ -214,7 +214,7 @@
 	font-weight: bold;
 }
 
-#stacks_in_65 {
+#stacks_in_490 {
 	font-size: 150%;
 	font-weight: bold;
 }
@@ -281,12 +281,12 @@
 	margin:  20px;
 }
 
-#stacks_in_402 {
+#stacks_in_65 {
 	font-size: 150%;
 	font-weight: bold;
 }
 
-#stacks_in_57 {
+#stacks_in_402 {
 	font-size: 150%;
 	font-weight: bold;
 }
@@ -353,12 +353,12 @@
 	margin:  20px;
 }
 
-#stacks_in_73 {
+#stacks_in_57 {
 	font-size: 150%;
 	font-weight: bold;
 }
 
-#stacks_in_97 {
+#stacks_in_73 {
 	font-size: 150%;
 	font-weight: bold;
 }
@@ -425,12 +425,84 @@
 	margin:  20px;
 }
 
-#stacks_in_89 {
+#stacks_in_97 {
 	font-size: 150%;
 	font-weight: bold;
 }
 
 #stacks_in_113 {
+	font-size: 150%;
+	font-weight: bold;
+}
+#stacks_in_472>.s3_row {
+	margin: 0 -10px;
+}
+
+#stacks_in_472>.s3_row>.s3_column {
+	padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+  
+
+
+@media only screen and (max-width: 770px) {
+
+
+
+
+	#stacks_in_472>.s3_row  {
+		margin: -10px -10px;
+	}
+	#stacks_in_472>.s3_row>.s3_column {
+		padding: 10px 10px;
+		width:50%;
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+	#stacks_in_472>.s3_row  {
+		margin: -10px 0;
+	}
+	#stacks_in_472>.s3_row>.s3_column {
+		padding: 10px 0;
+		width:100%;
+	}
+
+
+
+
+
+}
+
+
+
+
+  
+
+#stacks_in_472 {
+	margin:  20px;
+}
+
+#stacks_in_483 {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#stacks_in_475 {
 	font-size: 150%;
 	font-weight: bold;
 }
