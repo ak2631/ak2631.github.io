@@ -125,3 +125,58 @@ img.imageStyle {
   margin: 0 !important;
 }
 #content { padding-left: 0 !important; }
+
+/* -------- News / Blog page styling -------- */
+
+/* Hide the blog sidebar (archives/RSS) to match the homepage */
+#sidebarContainer { display: none !important; }
+
+/* Ensure content expands full width when sidebar is hidden */
+#contentContainer, #content {
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+
+/* Turn each news item into a card */
+.blog-entry {
+  background: #ffffff;
+  border: 1px solid rgba(31,41,55,0.10);
+  border-radius: 16px;
+  padding: 16px 18px;
+  margin: 0 0 16px 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.blog-entry-title {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.2px;
+}
+
+.blog-entry-title a {
+  text-decoration: none;
+  color: #111827;
+}
+.blog-entry-title a:hover {
+  text-decoration: underline;
+}
+
+.blog-entry-date {
+  color: rgba(31,41,55,0.65);
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.blog-entry-body {
+  line-height: 1.65;
+}
+
+/* Images inside news posts */
+.blog-entry-body img {
+  max-width: 100%;
+  height: auto !important;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  margin-top: 10px;
+}
