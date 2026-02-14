@@ -77,21 +77,6 @@ html, body {
   padding-right: 10px;
 }
 
-/* ---- Sidebar: make it look intentional ---- */
-#sidebarContainer {
-  padding: 18px 0 18px 18px;
-}
-#sidebar {
-  background: #fafafa;
-  border: 1px solid rgba(31,41,55,0.10);
-  border-radius: 14px;
-  padding: 14px;
-}
-#sidebar .sideHeader {
-  font-size: 14px;
-  margin: 0 0 10px 0;
-}
-
 /* ---- Make your H3 sections look like “cards” ---- */
 .stacks_in.text_stack h3 {
   font-size: 20px;
@@ -125,9 +110,18 @@ img.imageStyle {
   color: rgba(31,41,55,0.6);
 }
 
-/* ---- Mobile: stack sidebar +*
+/* ---- Mobile: simplify spacing ---- */
+@media (max-width: 900px) {
+  #container { margin: 0; border-radius: 0; }
+  #navcontainer { padding: 0 12px; }
+  #contentContainer { padding: 12px; }
+}
 
-/* Sidebar removed: let content use full width */
+/* ---- Sidebar removed: restore full-width layout ---- */
 #sidebarContainer { display: none !important; }
-#contentContainer { margin-left: 0 !important; width: auto !important; }
-
+#contentContainer, #content {
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+#content { padding-left: 0 !important; }
