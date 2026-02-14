@@ -301,3 +301,31 @@ img.imageStyle {
   max-width: 65%;
   height: auto;
 }
+/* ===== PEOPLE PAGE: SAFE RESET + TIDY (no layout overrides) ===== */
+
+/* Do NOT change columns, floats, grid, widths, etc. Just typography + images. */
+
+.com_yourhead_stack_four_columns_stack img.imageStyle,
+.com_yourhead_stack_four_columns_stack img.stacksImage {
+  max-width: 240px;     /* change to 260 if you want bigger */
+  width: 100%;
+  height: auto;         /* don’t force square crops yet */
+  border-radius: 14px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+/* Make names consistent without touching other text */
+.com_yourhead_stack_four_columns_stack .stacks_in.text_stack > span {
+  font-size: 18px;
+  font-weight: 800;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #111827;
+}
+
+/* Clean up body text slightly */
+.com_yourhead_stack_four_columns_stack .stacks_in.text_stack {
+  line-height: 1.6;
+  color: rgba(17,24,39,0.85);
+}
+
