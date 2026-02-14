@@ -360,5 +360,85 @@ img.imageStyle {
   line-height: 1.6;
   color: rgba(17,24,39,0.85);
 }
+/* ===== PEOPLE PAGE: REAL PROFILE CARDS ===== */
+
+.people-page h2.section-title{
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  margin: 8px 0 18px 0;
+  color: #111827;
+  text-align: center;
+}
+
+.people-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0 auto 28px auto;
+}
+
+@media (max-width: 980px){
+  .people-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 620px){
+  .people-grid{ grid-template-columns: 1fr; }
+}
+
+.person-card{
+  background: #fff;
+  border: 1px solid rgba(31,41,55,0.10);
+  border-radius: 16px;
+  padding: 14px 14px 16px 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.person-card img{
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+  margin: 0 0 12px 0;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+.person-card .name{
+  font-size: 18px;
+  font-weight: 800;
+  color: #111827;
+  margin: 0 0 8px 0;
+}
+
+.person-card .meta{
+  font-size: 14px;
+  line-height: 1.55;
+  color: rgba(17,24,39,0.85);
+}
+
+.person-card .label{
+  font-weight: 800;
+  color: rgba(17,24,39,0.85);
+}
+
+.person-card .links a{
+  font-weight: 700;
+  text-decoration: none;
+}
+.person-card .links a:hover{
+  text-decoration: underline;
+}
+
+.person-card .role-badge{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(31,41,55,0.08);
+  color: rgba(17,24,39,0.85);
+  margin-bottom: 10px;
+}
+
 
 
