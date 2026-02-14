@@ -296,4 +296,11 @@ img.imageStyle {
   .pillars { grid-template-columns: 1fr; }
 }
 
+/* Make the epigenetic clock image smaller */
+#stacks_in_50 img {
+  max-width: 65%;
+  height: auto;
+}
+
+
 
