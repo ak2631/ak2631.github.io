@@ -408,3 +408,72 @@ img.imageStyle {
     height: 320px;
   }
 }
+/* =========================
+   PEOPLE PAGE — SAFE POLISH (no layout overrides)
+   ========================= */
+
+/* Title */
+#stacks_in_6 p {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  margin: 8px 0 18px 0;
+  color: #111827;
+}
+
+/* Add breathing room between rows */
+.com_yourhead_stack_four_columns_stack .s3_row {
+  margin-bottom: 26px;
+}
+
+/* Headshots: make them consistent WITHOUT forcing them tiny */
+.com_yourhead_stack_four_columns_stack img.imageStyle,
+.com_yourhead_stack_four_columns_stack img.stacksImage {
+  width: 100% !important;
+  max-width: 240px !important;   /* adjust 220–280 */
+  height: 240px !important;      /* keep square */
+  object-fit: cover !important;
+  border-radius: 14px;
+  display: block;
+  margin: 0 auto 10px auto;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+/* Names: target the name text blocks directly */
+#content #stacks_out_1 .stacks_in.text_stack > span {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: #111827 !important;
+}
+
+/* Fix the one weird inline Times-Bold name */
+#content #stacks_out_1 span[style*="Times-Bold"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+}
+
+/* Body text in cards */
+.com_yourhead_stack_four_columns_stack .stacks_in.text_stack {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(17,24,39,0.85);
+}
+
+/* Links */
+.com_yourhead_stack_four_columns_stack a {
+  font-weight: 700;
+  text-decoration: none;
+}
+.com_yourhead_stack_four_columns_stack a:hover {
+  text-decoration: underline;
+}
+
+/* Undergrad header */
+#stacks_in_19 p {
+  font-size: 22px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-top: 28px;
+  color: #111827;
+}
