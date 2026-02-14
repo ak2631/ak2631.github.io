@@ -328,4 +328,37 @@ img.imageStyle {
   line-height: 1.6;
   color: rgba(17,24,39,0.85);
 }
+/* ===== PEOPLE PAGE: SAFE POLISH (no layout overrides) ===== */
+
+/* Add vertical spacing between each 4-column row */
+.com_yourhead_stack_four_columns_stack .s3_row {
+  margin-bottom: 26px;
+}
+
+/* Headshots: consistent size, centered, rounded */
+.com_yourhead_stack_four_columns_stack img.imageStyle,
+.com_yourhead_stack_four_columns_stack img.stacksImage {
+  width: 100% !important;
+  max-width: 260px !important;   /* try 240–300 */
+  height: auto !important;       /* keep natural ratio (safe) */
+  border-radius: 14px;
+  display: block;
+  margin: 0 auto 10px auto;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+/* Names: consistent font + size (only the first span in the name blocks) */
+.com_yourhead_stack_four_columns_stack .stacks_in.text_stack > span {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: #111827 !important;
+}
+
+/* Body text: slightly cleaner */
+.com_yourhead_stack_four_columns_stack .stacks_in.text_stack {
+  line-height: 1.6;
+  color: rgba(17,24,39,0.85);
+}
+
 
