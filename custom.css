@@ -1,0 +1,128 @@
+/* custom.css — safe visual polish for the existing RapidWeaver/Cameo layout */
+
+/* ---- Base typography + page background ---- */
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background: #f6f7f8;
+  color: #1f2937;
+}
+
+/* ---- Center and soften the main container ---- */
+#container {
+  max-width: 1120px;
+  margin: 24px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  overflow: hidden; /* rounds header/nav too */
+}
+
+/* ---- Header polish ---- */
+#pageHeader {
+  padding: 22px 28px 10px 28px;
+}
+#pageHeader h1 {
+  font-size: 28px;
+  letter-spacing: -0.3px;
+  margin: 0;
+}
+#pageHeader h2 {
+  margin-top: 6px;
+  color: rgba(31,41,55,0.7);
+}
+
+/* ---- Navigation: cleaner + more modern ---- */
+#navcontainer {
+  padding: 0 18px;
+}
+#navcontainer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 0 14px 0 !important;
+  margin: 0 !important;
+  align-items: center;
+}
+#navcontainer li {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#navcontainer a {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1f2937;
+  background: rgba(31,41,55,0.06);
+  transition: transform 120ms ease, background 120ms ease;
+}
+#navcontainer a:hover {
+  background: rgba(31,41,55,0.10);
+  transform: translateY(-1px);
+}
+#navcontainer a#current {
+  background: rgba(17,24,39,0.12);
+}
+
+/* ---- Layout breathing room ---- */
+#contentContainer {
+  padding: 18px 22px 26px 22px;
+}
+#content {
+  padding-right: 10px;
+}
+
+/* ---- Sidebar: make it look intentional ---- */
+#sidebarContainer {
+  padding: 18px 0 18px 18px;
+}
+#sidebar {
+  background: #fafafa;
+  border: 1px solid rgba(31,41,55,0.10);
+  border-radius: 14px;
+  padding: 14px;
+}
+#sidebar .sideHeader {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+/* ---- Make your H3 sections look like “cards” ---- */
+.stacks_in.text_stack h3 {
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+  letter-spacing: -0.2px;
+}
+#stacks_in_174, #stacks_in_176, #stacks_in_178, #stacks_in_179 {
+  background: #ffffff;
+  border: 1px solid rgba(31,41,55,0.10);
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+/* ---- Improve readability for your inline span styles ---- */
+#content span[style*="font-size:16px"] {
+  line-height: 1.65;
+}
+
+/* ---- Images: responsive + nicer ---- */
+img.imageStyle {
+  max-width: 100%;
+  height: auto !important;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+/* ---- Footer spacing ---- */
+#footer {
+  padding: 14px 22px 18px 22px;
+  color: rgba(31,41,55,0.6);
+}
+
+/* ---- Mobile: stack sidebar +*
