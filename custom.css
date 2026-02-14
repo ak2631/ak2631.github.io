@@ -126,3 +126,8 @@ img.imageStyle {
 }
 
 /* ---- Mobile: stack sidebar +*
+
+/* Sidebar removed: let content use full width */
+#sidebarContainer { display: none !important; }
+#contentContainer { margin-left: 0 !important; width: auto !important; }
+
