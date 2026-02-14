@@ -302,10 +302,10 @@ img.imageStyle {
   height: auto;
 }
 /* =========================
-   PEOPLE PAGE POLISH
+   PEOPLE PAGE POLISH (paired image + text)
    ========================= */
 
-/* Center and style the section title */
+/* Page title */
 #stacks_in_6 p {
   font-size: 28px;
   font-weight: 800;
@@ -314,22 +314,29 @@ img.imageStyle {
   color: #111827;
 }
 
-/* Space out each row of people */
+/* Each person is actually TWO columns (image + text). Style the ROW as the card. */
 .com_yourhead_stack_four_columns_stack .s3_row {
+  background: #ffffff;
+  border: 1px solid rgba(31,41,55,0.10);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
   margin-bottom: 22px;
 }
 
-/* Make each column read like a card */
+/* IMPORTANT: remove card styling from individual columns */
 .com_yourhead_stack_four_columns_stack .s3_column {
-  background: #ffffff;
-  border: 1px solid rgba(31,41,55,0.10);
-  border-radius: 16px;
-  padding: 14px 14px 16px 14px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
 }
 
-/* Headshots: consistent display size + crop + nicer edges */
+/* Images: consistent size */
 .com_yourhead_stack_four_columns_stack img.imageStyle,
 .com_yourhead_stack_four_columns_stack img.stacksImage {
   width: 100%;
@@ -338,31 +345,36 @@ img.imageStyle {
   object-fit: cover;
   border-radius: 14px;
   display: block;
-  margin: 0 auto 10px auto;
+  margin: 0 auto;
   box-shadow: 0 10px 24px rgba(0,0,0,0.12);
 }
 
-/* Names: make consistent and bold */
-.com_yourhead_stack_four_columns_stack .stacks_in.text_stack span {
-  font-size: 18px !important;
-  font-weight: 800 !important;
-  color: #111827 !important;
-}
-
-/* The “Position / About Me” text: cleaner spacing */
-.com_yourhead_stack_four_columns_stack .stacks_in.text_stack strong {
-  display: inline-block;
-  margin-top: 6px;
-  color: rgba(17,24,39,0.85);
-}
-
-/* Body text */
+/* Text blocks: consistent sizing */
 .com_yourhead_stack_four_columns_stack .stacks_in.text_stack {
+  font-size: 14px;
   line-height: 1.6;
   color: rgba(17,24,39,0.85);
 }
 
-/* Links in profiles */
+/* Names: target ONLY the name spans by their known IDs pattern */
+.com_yourhead_stack_four_columns_stack span[id^="stacks_in_"] {
+  font-size: 18px;
+  font-weight: 800;
+  color: #111827;
+}
+
+/* But don't accidentally style paragraphs used for centered headings */
+.com_yourhead_stack_four_columns_stack p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Labels */
+.com_yourhead_stack_four_columns_stack .stacks_in.text_stack strong {
+  color: rgba(17,24,39,0.85);
+}
+
+/* Links */
 .com_yourhead_stack_four_columns_stack a {
   text-decoration: none;
   font-weight: 700;
@@ -371,7 +383,7 @@ img.imageStyle {
   text-decoration: underline;
 }
 
-/* Undergraduate section header */
+/* Undergraduate header */
 #stacks_in_19 p {
   font-size: 22px;
   font-weight: 800;
@@ -380,11 +392,15 @@ img.imageStyle {
   color: #111827;
 }
 
-/* Mobile: stack to 1 column */
+/* Mobile: stack into 2 columns (image+text), then 1 column on small screens */
 @media (max-width: 900px) {
   .com_yourhead_stack_four_columns_stack .s3_row {
-    display: grid;
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .com_yourhead_stack_four_columns_stack .s3_row {
+    grid-template-columns: 1fr;
   }
   .com_yourhead_stack_four_columns_stack img.imageStyle,
   .com_yourhead_stack_four_columns_stack img.stacksImage {
@@ -392,7 +408,3 @@ img.imageStyle {
     height: 320px;
   }
 }
-
-
-
-
