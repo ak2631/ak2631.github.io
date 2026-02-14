@@ -194,3 +194,22 @@ img.imageStyle {
 /* Hide the built-in RapidWeaver page header (prevents double title) */
 #pageHeader { display: none !important; }
 
+/* ---- Centered hero image (matches content width) ---- */
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 18px 0;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1100px;   /* matches container width */
+  height: auto;
+  max-height: 360px;   /* prevents giant vertical hero */
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 14px 36px rgba(0,0,0,0.18);
+}
+
+
