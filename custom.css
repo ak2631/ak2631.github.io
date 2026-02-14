@@ -301,53 +301,29 @@ img.imageStyle {
   max-width: 65%;
   height: auto;
 }
-/* ===== PEOPLE PAGE: SAFE RESET + TIDY (no layout overrides) ===== */
+/* ===== PEOPLE PAGE: SIMPLE MODERN POLISH (SAFE) ===== */
 
-/* Do NOT change columns, floats, grid, widths, etc. Just typography + images. */
-
-.com_yourhead_stack_four_columns_stack img.imageStyle,
-.com_yourhead_stack_four_columns_stack img.stacksImage {
-  max-width: 240px;     /* change to 260 if you want bigger */
-  width: 100%;
-  height: auto;         /* don’t force square crops yet */
-  border-radius: 14px;
-  display: block;
-  margin: 0 auto 10px auto;
-}
-
-/* Make names consistent without touching other text */
-.com_yourhead_stack_four_columns_stack .stacks_in.text_stack > span {
-  font-size: 18px;
-  font-weight: 800;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-  color: #111827;
-}
-
-/* Clean up body text slightly */
-.com_yourhead_stack_four_columns_stack .stacks_in.text_stack {
-  line-height: 1.6;
-  color: rgba(17,24,39,0.85);
-}
-/* ===== PEOPLE PAGE: SAFE POLISH (no layout overrides) ===== */
-
-/* Add vertical spacing between each 4-column row */
+/* Space between each row of people */
 .com_yourhead_stack_four_columns_stack .s3_row {
-  margin-bottom: 26px;
+  margin: 12px 0 28px 0;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(31,41,55,0.10);
 }
 
-/* Headshots: consistent size, centered, rounded */
+/* Headshots: consistent visual size, centered */
 .com_yourhead_stack_four_columns_stack img.imageStyle,
 .com_yourhead_stack_four_columns_stack img.stacksImage {
   width: 100% !important;
-  max-width: 260px !important;   /* try 240–300 */
-  height: auto !important;       /* keep natural ratio (safe) */
+  max-width: 260px !important;  /* adjust 240–300 */
+  height: 260px !important;     /* consistent “card-like” look */
+  object-fit: cover !important;
   border-radius: 14px;
   display: block;
   margin: 0 auto 10px auto;
   box-shadow: 0 10px 24px rgba(0,0,0,0.12);
 }
 
-/* Names: consistent font + size (only the first span in the name blocks) */
+/* Names: consistent typography */
 .com_yourhead_stack_four_columns_stack .stacks_in.text_stack > span {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
   font-size: 18px !important;
@@ -355,90 +331,18 @@ img.imageStyle {
   color: #111827 !important;
 }
 
-/* Body text: slightly cleaner */
+/* Body text: cleaner */
 .com_yourhead_stack_four_columns_stack .stacks_in.text_stack {
+  font-size: 14px;
   line-height: 1.6;
   color: rgba(17,24,39,0.85);
 }
-/* ===== PEOPLE PAGE: REAL PROFILE CARDS ===== */
 
-.people-page h2.section-title{
-  font-size: 28px;
-  font-weight: 800;
-  letter-spacing: -0.3px;
-  margin: 8px 0 18px 0;
-  color: #111827;
-  text-align: center;
-}
-
-.people-grid{
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
-  margin: 0 auto 28px auto;
-}
-
-@media (max-width: 980px){
-  .people-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 620px){
-  .people-grid{ grid-template-columns: 1fr; }
-}
-
-.person-card{
-  background: #fff;
-  border: 1px solid rgba(31,41,55,0.10);
-  border-radius: 16px;
-  padding: 14px 14px 16px 14px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-}
-
-.person-card img{
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 14px;
-  display: block;
-  margin: 0 0 12px 0;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
-}
-
-.person-card .name{
-  font-size: 18px;
-  font-weight: 800;
-  color: #111827;
-  margin: 0 0 8px 0;
-}
-
-.person-card .meta{
-  font-size: 14px;
-  line-height: 1.55;
-  color: rgba(17,24,39,0.85);
-}
-
-.person-card .label{
-  font-weight: 800;
-  color: rgba(17,24,39,0.85);
-}
-
-.person-card .links a{
+/* Links */
+.com_yourhead_stack_four_columns_stack a {
   font-weight: 700;
   text-decoration: none;
 }
-.person-card .links a:hover{
+.com_yourhead_stack_four_columns_stack a:hover {
   text-decoration: underline;
 }
-
-.person-card .role-badge{
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 800;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: rgba(31,41,55,0.08);
-  color: rgba(17,24,39,0.85);
-  margin-bottom: 10px;
-}
-
-
-
