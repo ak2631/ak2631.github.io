@@ -7,7 +7,7 @@
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 	<channel>
-<title>My RSS Feed</title><link>https://schmitzlab.uga.edu/index.html</link><description>Hot News&#x21;</description><dc:language>en</dc:language><language>en</language><dc:date>2025-12-11T09:39:49-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<title>My RSS Feed</title><link>https://schmitzlab.uga.edu/index.html</link><description>Hot News&#x21;</description><dc:language>en</dc:language><language>en</language><dc:date>2026-04-20T09:33:00-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
