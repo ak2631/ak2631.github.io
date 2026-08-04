@@ -1,3 +1,29 @@
+/* Keep all alumni photos the same size */
+.site_image_stack img,
+.image_stack img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Align columns to the top */
+.s3_row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.s3_column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Keep names consistent */
+.text_stack span {
+    font-size: 150%;
+    font-weight: bold;
+}
 
 #stacks_in_3 {
 	font-size: 300%;
