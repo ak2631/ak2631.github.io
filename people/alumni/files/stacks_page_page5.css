@@ -1996,6 +1996,14 @@
 	padding: 0 10px;
 }
 
+#stacks_in_436>.s3_row {
+	margin: 0 -10px;
+}
+
+#stacks_in_436>.s3_row>.s3_column {
+	padding: 0 10px;
+}
+
 #stacks_in_751>.s3_row {
 	margin: 0 -10px;
 }
