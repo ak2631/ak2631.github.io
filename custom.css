@@ -424,24 +424,3 @@ img.imageStyle {
   box-shadow: 0 18px 38px rgba(0,0,0,0.22);
 }
 
-/* ===== NEWS POSTS ===== */
-
-.blog-entry-title a,
-.blog-entry-title a:visited {
-    color: #111827 !important;
-    text-decoration: none !important;
-}
-
-.blog-entry-title a:hover {
-    color: #111827 !important;
-    text-decoration: underline !important;
-}
-
-.blog-entry-body {
-    color: #111827 !important;
-}
-
-.blog-entry-body p {
-    color: #111827 !important;
-    text-decoration: none !important;
-}
