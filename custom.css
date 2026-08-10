@@ -426,18 +426,6 @@ img.imageStyle {
 
 /* ===== NEWS PAGE ===== */
 
-#content .blog-entry-title a,
-#content .blog-entry-title a:link,
-#content .blog-entry-title a:visited {
-    color: #111827 !important;
-    text-decoration: none !important;
-}
-
-#content .blog-entry-title a:hover {
-    color: #111827 !important;
-    text-decoration: underline !important;
-}
-
 /* News article text */
 #content .blog-entry-body {
     color: #111827 !important;
@@ -447,4 +435,17 @@ img.imageStyle {
 #content .blog-entry-body span {
     color: #111827 !important;
     text-decoration: none !important;
+}
+
+/* News post titles */
+#content .blog-entry-title a,
+#content .blog-entry-title a:link,
+#content .blog-entry-title a:visited {
+    color: #2f6f1e !important;
+    text-decoration: none !important;
+}
+
+#content .blog-entry-title a:hover {
+    color: #2f6f1e !important;
+    text-decoration: underline !important;
 }
