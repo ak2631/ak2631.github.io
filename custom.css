@@ -307,7 +307,7 @@ img.imageStyle {
 .com_yourhead_stack_four_columns_stack .s3_row {
   margin: 12px 0 28px 0;
   padding-bottom: 18px;
-  border-bottom: none;
+  border-bottom: 1px solid rgba(31,41,55,0.10);
 }
 
 /* Headshots: consistent visual size, centered */
