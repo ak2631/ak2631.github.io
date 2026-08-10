@@ -449,3 +449,27 @@ img.imageStyle {
     color: #2f6f1e !important;
     text-decoration: underline !important;
 }
+
+/* ===== RESEARCH PAGE CARDS ===== */
+
+.research-section {
+    border: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin: 0 0 28px 0;
+    background: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* Research section headings */
+.research-section h3 {
+    color: #2f6f1e;
+    margin-top: 0;
+}
+
+/* Images inside research cards */
+.research-section img {
+    border-radius: 14px;
+    max-width: 100%;
+    height: auto;
+}
