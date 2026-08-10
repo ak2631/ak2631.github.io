@@ -450,26 +450,194 @@ img.imageStyle {
     text-decoration: underline !important;
 }
 
-/* ===== RESEARCH PAGE CARDS ===== */
+/* =========================================================
+   RESEARCH PAGE — SECTION CARDS
+   ========================================================= */
 
-.research-section {
-    border: 1px solid rgba(31, 41, 55, 0.12);
-    border-radius: 16px;
-    padding: 24px 28px;
-    margin: 0 0 28px 0;
-    background: #ffffff;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+/* All research content */
+#stacks_in_1 > .stacks_out {
+    box-sizing: border-box;
 }
 
-/* Research section headings */
-.research-section h3 {
+/* ---------- SECTION 1: Research Focus ---------- */
+
+#stacks_out_30,
+#stacks_out_2 {
+    border-left: 1px solid rgba(31, 41, 55, 0.12);
+    border-right: 1px solid rgba(31, 41, 55, 0.12);
+    background: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#stacks_out_30 {
+    border-top: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 16px 16px 0 0;
+    padding-top: 24px;
+}
+
+#stacks_out_2 {
+    border-bottom: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 0 0 16px 16px;
+    padding-bottom: 24px;
+}
+
+
+/* ---------- SECTION 2: Cis-Regulatory Elements ---------- */
+
+#stacks_out_32,
+#stacks_out_5,
+#stacks_out_6,
+#stacks_out_7 {
+    border-left: 1px solid rgba(31, 41, 55, 0.12);
+    border-right: 1px solid rgba(31, 41, 55, 0.12);
+    background: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#stacks_out_32 {
+    border-top: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 16px 16px 0 0;
+    padding-top: 24px;
+}
+
+#stacks_out_7 {
+    border-bottom: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 0 0 16px 16px;
+    padding-bottom: 24px;
+}
+
+
+/* ---------- SECTION 3: Single-Cell Genomics ---------- */
+
+#stacks_out_8,
+#stacks_out_34,
+#stacks_out_36,
+#stacks_out_11 {
+    border-left: 1px solid rgba(31, 41, 55, 0.12);
+    border-right: 1px solid rgba(31, 41, 55, 0.12);
+    background: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#stacks_out_8 {
+    border-top: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 16px 16px 0 0;
+    padding-top: 24px;
+}
+
+#stacks_out_11 {
+    border-bottom: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 0 0 16px 16px;
+    padding-bottom: 24px;
+}
+
+
+/* ---------- SECTION 4: Single-Cell Genetic Screens ---------- */
+
+#stacks_out_12,
+#stacks_out_38,
+#stacks_out_13 {
+    border-left: 1px solid rgba(31, 41, 55, 0.12);
+    border-right: 1px solid rgba(31, 41, 55, 0.12);
+    background: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#stacks_out_12 {
+    border-top: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 16px 16px 0 0;
+    padding-top: 24px;
+}
+
+#stacks_out_13 {
+    border-bottom: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 0 0 16px 16px;
+    padding-bottom: 24px;
+}
+
+
+/* ---------- SECTION 5: Epigenetic Clock ---------- */
+
+#stacks_out_40,
+#stacks_out_42,
+#stacks_out_50,
+#stacks_out_44 {
+    border-left: 1px solid rgba(31, 41, 55, 0.12);
+    border-right: 1px solid rgba(31, 41, 55, 0.12);
+    background: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#stacks_out_40 {
+    border-top: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 16px 16px 0 0;
+    padding-top: 24px;
+}
+
+#stacks_out_44 {
+    border-bottom: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 0 0 16px 16px;
+    padding-bottom: 24px;
+}
+
+
+/* ---------- SECTION 6: Molecular Mechanisms ---------- */
+
+#stacks_out_46,
+#stacks_out_48,
+#stacks_out_52,
+#stacks_out_54 {
+    border-left: 1px solid rgba(31, 41, 55, 0.12);
+    border-right: 1px solid rgba(31, 41, 55, 0.12);
+    background: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#stacks_out_46 {
+    border-top: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 16px 16px 0 0;
+    padding-top: 24px;
+}
+
+#stacks_out_54 {
+    border-bottom: 1px solid rgba(31, 41, 55, 0.12);
+    border-radius: 0 0 16px 16px;
+    padding-bottom: 24px;
+}
+
+
+/* ---------- Section headings ---------- */
+
+#stacks_in_1 h3 {
     color: #2f6f1e;
     margin-top: 0;
 }
 
-/* Images inside research cards */
-.research-section img {
+
+/* ---------- Research images ---------- */
+
+#stacks_in_1 .image_stack img {
     border-radius: 14px;
+    display: block;
     max-width: 100%;
     height: auto;
 }
+
+
+/* ---------- Subtle shadow on each card ---------- */
+
+#stacks_out_30,
+#stacks_out_32,
+#stacks_out_8,
+#stacks_out_12,
+#stacks_out_40,
+#stacks_out_46 {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+   
