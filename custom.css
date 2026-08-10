@@ -424,3 +424,27 @@ img.imageStyle {
   box-shadow: 0 18px 38px rgba(0,0,0,0.22);
 }
 
+/* ===== NEWS PAGE ===== */
+
+#content .blog-entry-title a,
+#content .blog-entry-title a:link,
+#content .blog-entry-title a:visited {
+    color: #111827 !important;
+    text-decoration: none !important;
+}
+
+#content .blog-entry-title a:hover {
+    color: #111827 !important;
+    text-decoration: underline !important;
+}
+
+/* News article text */
+#content .blog-entry-body {
+    color: #111827 !important;
+    text-decoration: none !important;
+}
+
+#content .blog-entry-body span {
+    color: #111827 !important;
+    text-decoration: none !important;
+}
