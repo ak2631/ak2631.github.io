@@ -450,3 +450,14 @@ img.imageStyle {
     text-decoration: underline !important;
 }
 
+/* Remove unwanted card styling from Zefu Lu's text */
+#stacks_out_173,
+#stacks_in_173,
+#stacks_out_176,
+#stacks_in_176 {
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
